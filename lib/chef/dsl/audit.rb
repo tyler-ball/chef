@@ -17,6 +17,7 @@
 #
 
 require 'rspec/core'
+require 'chef/audit/controls'
 
 class Chef
   module DSL

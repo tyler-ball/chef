@@ -16,6 +16,5 @@
 # limitations under the License.
 #
 
-require 'chef/dsl/audit'
 require 'chef/audit/controls'
 require 'chef/audit/runner'
