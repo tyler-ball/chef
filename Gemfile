@@ -65,6 +65,8 @@ group(:travis) do
   gem "travis"
 end
 
+gem 'coveralls', require: false
+
 instance_eval(ENV["GEMFILE_MOD"]) if ENV["GEMFILE_MOD"]
 
 # If you want to load debugging tools into the bundle exec sandbox,
